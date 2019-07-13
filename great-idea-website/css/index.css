@@ -65,12 +65,17 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+html, body{
+	text-align: center;
+}
+
 figure {
 	display: inline-block;
 }
 
 section{ /* Makes all section inline-block */
 	display: inline-block;
+	width: 47.5%
 }
 
 /* HEADER */
@@ -80,7 +85,7 @@ header {
 	width: 100%;
 	height: auto;
 	display: inline-block;
-	margin: 20px 0;
+	margin: 40px 0;
 	text-align: center;
 }
 
@@ -89,7 +94,8 @@ nav {
 }
 
 nav a {
-	padding: 40px;
+	font-size: 18px;
+	padding: 30px;
 	text-decoration: none;
 }
 
@@ -100,10 +106,22 @@ header figure {
 
 /* HERO SECTION*/
 
-h1{
-	font-size: 50px;
+#hero {
+	text-align: center;
+	width: 80%;
+	margin: 60px 0;
+	border-bottom: 1px solid gray;
+	padding-bottom: 50px;
 }
 
-.hero-section{
-	width: 560px;
+h1{
+	height: 250px;
+	font-size: 70px;
+	text-align: center;
 }
+
+#hero figure {
+	width: 47.5%;
+}
+
+/* MAIN AREA */
