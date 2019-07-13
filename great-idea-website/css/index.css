@@ -65,6 +65,16 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+figure {
+	display: inline-block;
+}
+
+section{ /* Makes all section inline-block */
+	display: inline-block;
+}
+
+/* HEADER */
+
 header {
 	height: 50px;
 	width: 100%;
@@ -83,12 +93,17 @@ nav a {
 	text-decoration: none;
 }
 
-figure {
-	display: inline-block;
+header figure {
 	margin-left: 50px;
 
 }
 
-section{
-	display: inline: block;
+/* HERO SECTION*/
+
+h1{
+	font-size: 50px;
+}
+
+.hero-section{
+	width: 560px;
 }
