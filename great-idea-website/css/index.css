@@ -124,4 +124,11 @@ h1{
 	width: 47.5%;
 }
 
+.button {
+	color: #000000;
+	text-decoration: none;
+	border: 1px solid gray;
+	padding: 0 25px;
+}
+
 /* MAIN AREA */
