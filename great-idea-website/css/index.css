@@ -109,7 +109,7 @@ header figure {
 
 #hero {
 	text-align: center;
-	width: 80%;
+	width: 90%;
 	margin: 60px 0;
 	border-bottom: 1px solid gray;
 	padding-bottom: 50px;
@@ -176,4 +176,28 @@ main section{
 
 #features{
 	padding-right: 5px;
+}
+
+/* FOOTER */
+
+footer{
+	margin: 50px 0 50px 60px;
+}
+
+#contact-info{
+	text-align: left;
+	margin: bottom: 40px;
+}
+
+address{
+	margin-bottom: 20px;
+}
+
+.contact{
+	margin-top: 20px;
+}
+
+#copyright {
+	text-align: center;
+	margin-top: 50px;
 }
