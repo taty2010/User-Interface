@@ -70,6 +70,20 @@ html, body{
 	text-align: center;
 }
 
+h1{
+	height: 250px;
+	font-size: 80px;
+	text-align: center;
+}
+
+h3{
+	font-size: 18px;
+}
+
+p{
+	font-size: 16px;
+}
+
 figure {
 	display: inline-block;
 }
@@ -98,6 +112,7 @@ nav a {
 	font-size: 18px;
 	padding: 30px;
 	text-decoration: none;
+	color: #000000;
 }
 
 header figure {
@@ -115,12 +130,6 @@ header figure {
 	padding-bottom: 50px;
 }
 
-h1{
-	height: 250px;
-	font-size: 70px;
-	text-align: center;
-}
-
 #hero figure {
 	width: 47.5%;
 }
@@ -133,14 +142,6 @@ h1{
 }
 
 /* MAIN AREA */
-
-h3{
-	font-size: 18px;
-}
-
-p{
-	font-size: 16px;
-}
 
 main {
 	width: 100%;
