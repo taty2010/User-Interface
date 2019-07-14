@@ -96,12 +96,13 @@ section{ /* Makes all section inline-block */
 /* HEADER */
 
 header {
-	height: 50px;
+	height: 150px;
 	width: 100%;
-	height: auto;
-	display: inline-block;
-	margin: 40px 0;
+	/*display: inline-block;*/
+	position: fixed;
+	padding-top: 30px;
 	text-align: center;
+	background-color: #daf7e8;
 }
 
 nav {
