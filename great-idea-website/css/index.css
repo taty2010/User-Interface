@@ -234,6 +234,8 @@ h2{
 .article-services{
 	border: 1px solid gray;
 	background-color: rgba(255, 255, 255, 0.5);
+	padding: 0;
+	text-align: center;
 }
 
 .article-services:hover {
@@ -268,11 +270,11 @@ h2{
 }
 
 #image-four {
-	background-image: url(../img/fingerprint.png);
+	background-image: url(../img/motherboard.jpg);
 }
 
 #image-five {
-	background-image: url(../img/motherboard.jpg);
+	background-image: url(../img/fingerprint.png);
 }
 
 #image-six {
