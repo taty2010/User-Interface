@@ -233,6 +233,11 @@ h2{
 
 .article-services{
 	border: 1px solid gray;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.article-services:hover {
+	background-color: rgba(218, 247, 232, 0.5);
 }
 
 .service-images{
@@ -240,8 +245,36 @@ h2{
 	height: 300px;
 }
 
-#image-one {
-	background-image: url(../img/analytics.png);
+.service-images:hover{
+	opacity: 1;
+	transition: 1s;
+}
+
+#image-one, #image-two, #image-three, #image-four, #image-five, #image-six {
 	background-position: center;
 	background-size: cover;
+}
+
+#image-one {
+	background-image: url(../img/analytics.png);
+}
+
+#image-two {
+	background-image: url(../img/code.jpg);
+}
+
+#image-three {
+	background-image: url(../img/code_review.png);
+}
+
+#image-four {
+	background-image: url(../img/fingerprint.png);
+}
+
+#image-five {
+	background-image: url(../img/motherboard.jpg);
+}
+
+#image-six {
+	background-image: url(../img/data-services.jpg);
 }
