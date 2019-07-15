@@ -150,6 +150,14 @@ header figure {
 	padding: 0 25px;
 }
 
+#header-image{
+	background-image: url(../img/header-img.png);
+	background-repeat: no-repeat;
+  background-position: center;
+  width: 550px;
+  height: 379px;
+}
+
 /* MAIN AREA */
 
 main {
