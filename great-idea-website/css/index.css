@@ -78,6 +78,7 @@ h1{
 
 h3{
 	font-size: 18px;
+	font-family: 'Russo One', sans-serif;
 }
 
 p{
@@ -96,12 +97,13 @@ section{ /* Makes all section inline-block */
 /* HEADER */
 
 header {
-	height: 50px;
+	height: 100px;
 	width: 100%;
-	height: auto;
-	display: inline-block;
-	margin: 40px 0;
+	/*display: inline-block;*/
+	position: fixed;
+	padding-top: 22px;
 	text-align: center;
+	background-color: #daf7e8;
 }
 
 nav {
@@ -117,7 +119,14 @@ nav a {
 
 header figure {
 	margin-left: 50px;
+}
 
+#header-logo {
+	background-image: url(../img/logo.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 190px;
+	height: 34px;
 }
 
 /* HERO SECTION*/
@@ -125,9 +134,9 @@ header figure {
 #hero {
 	text-align: center;
 	width: 90%;
-	margin: 60px 0;
+	margin: 65px 0;
 	border-bottom: 1px solid gray;
-	padding-bottom: 50px;
+	padding: 65px 0 50px 0;
 }
 
 #hero figure {
@@ -139,6 +148,14 @@ header figure {
 	text-decoration: none;
 	border: 1px solid gray;
 	padding: 0 25px;
+}
+
+#header-image{
+	background-image: url(../img/header-img.png);
+	background-repeat: no-repeat;
+  background-position: center;
+  width: 550px;
+  height: 379px;
 }
 
 /* MAIN AREA */
@@ -159,6 +176,14 @@ main article{
 
 main section{
 	width: 90%;
+}
+
+#middle-image{
+	background-image: url(../img/mid-page-accent.jpg);
+	background-position: center;
+  background-repeat: no-repeat;
+  width: 890px;
+  height: 189px;
 }
 
 #last-section{
@@ -201,4 +226,80 @@ address{
 #copyright {
 	text-align: center;
 	margin-top: 50px;
+}
+
+
+/*** SERVICES PAGE ******/
+
+h2{
+	font-size: 25px;
+}
+
+#hero-services {
+	background-image: url(../img/services-illustration.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	width: 100%;
+	height: 450px;
+	margin: 65px 0;
+	padding: 65px 0 50px 0;
+
+}
+
+.hero-section-services{
+	width: 90%;
+	height: 350px;
+	margin-top: 90px;
+}
+
+.article-services{
+	border: 1px solid gray;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 0;
+	text-align: center;
+}
+
+.article-services:hover {
+	background-color: rgba(218, 247, 232, 0.5);
+}
+
+.service-images{
+	width: 300px;
+	height: 300px;
+}
+
+.service-images:hover{
+	opacity: 1;
+	transition: 1s;
+}
+
+#image-one, #image-two, #image-three, #image-four, #image-five, #image-six {
+	background-position: center;
+	background-size: cover;
+}
+
+#image-one {
+	background-image: url(../img/analytics.png);
+}
+
+#image-two {
+	background-image: url(../img/code.jpg);
+}
+
+#image-three {
+	background-image: url(../img/code_review.png);
+}
+
+#image-four {
+	background-image: url(../img/motherboard.jpg);
+}
+
+#image-five {
+	background-image: url(../img/fingerprint.png);
+}
+
+#image-six {
+	background-image: url(../img/data-services.jpg);
 }
